@@ -13,12 +13,12 @@ app.get('/friends', (req,res)=> {
     res.send(     [ {
             name: 'Newton',
             age: 22,
-            location: 'Lagos'        
+            location: 'Lagos'     
         },
         {
-            name: 'Newton',  
-            age: 22,
-            location: 'Lagos'        
+            name: 'Jane',  
+            age: 24,
+            location: 'Jos'        
         }
         ])
 
